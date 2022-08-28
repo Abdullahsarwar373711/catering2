@@ -1,0 +1,401 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: whitesmoke;
+	font-family: 'Didot',serif;
+}
+.navbar {
+
+	width: 100%;
+	border: 1px solid black;
+	padding-top: 20px;
+	display: flex;
+	background-color: whitesmoke;
+	position: fixed;
+	border-style: none;
+	border-bottom: 2px solid silver;
+}
+.navbar a{
+	text-decoration: none;
+	color: black;
+}
+.navbar p{
+	font-size: 18px;
+	margin-left: 20px;
+	cursor: pointer;
+}
+.navbar ul{
+	color: grey;
+		font-family: 'Didot',serif;
+	margin-bottom: 20px;
+	margin-left: 65%;
+	list-style: none;
+	display: flex;
+	font-size: 20px;
+}
+.navbar ul li{
+	margin-left: 30px;
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: grey;
+}
+.navbar ul li:hover{
+	background-color: lightgrey;
+	cursor: pointer;
+}
+.bimage img{
+	width: 100%;
+	height: 600px;
+	background-position: center;
+}
+.bimage p{
+	color: grey;
+	margin-left: 30px;
+	margin-top: -80px;
+	font-size: 40px;
+}
+.content ul{
+	margin-top: 100px;
+	list-style: none;
+	display: flex;
+}
+.content ul li img{
+	width: 500px;
+margin-left: 100px;
+}
+.content ul li p1{
+	margin-left: 150px;
+font-size: 40px;
+}
+.content ul li p2{
+font-size: 20px;
+color: darkslategray;
+margin-left: 200px;
+line-height: 20px;
+}
+.content ul li p{
+	text-align: justify-all;
+	margin-top: 30px;
+	margin-left: 20px;
+	line-height: 30px;
+	padding-right: 50px;
+	color: grey;
+}
+.write {
+	margin-left: 30px;
+	margin-top: 100px;
+}
+.secimage ul{
+	margin-top: 50px;
+	display: flex;
+	margin-left: 100px;
+	list-style: none;
+	line-height: 30px;
+}
+.secimage p1{
+	margin-left: 150px;
+font-size: 40px;
+}
+.secimage p2{
+	font-size: 20px;
+margin-left: 0px;
+}
+.secimage p{
+	color: darkslategray;
+}
+.secimage img{
+	width: 500px;
+	margin-left: 100px;
+}
+.write2{
+	margin-top: 30px;
+}
+.two{
+	margin-top: 50px;
+}
+.contact1{
+	margin-left: 100px;
+font-size: 40px;
+}
+.contact2{
+	margin-left: 100px;
+	margin-top: 50px;
+}
+.contact3{
+	color: darkblue;
+	margin-left: 100px;
+	margin-top: 20px;
+}
+.contact4{
+	margin-left: 100px;
+	margin-top: 20px;
+}
+.form{
+	margin-left: 100px;
+	margin-top: 20px;
+}
+.form input{
+	width: 900px;
+	line-height: 40px;
+}
+.input2{
+	margin-top: 20px;
+}
+.input3{
+	margin-top: 20px;
+}
+.input4{
+	margin-top: 20px;
+}
+.button{
+	margin-top: 40px;
+	border-style: none;
+	background-color: lightgrey;
+	line-height: 40px;
+	width: 200px;
+	cursor: pointer;
+}
+.button:hover{
+	background-color: grey;
+	color: whitesmoke;
+}
+.footer{
+	text-align: center;
+	margin-top: 100px;
+	width: 100%;
+	background-color: lightgrey;
+	line-height: 100px;
+}
+@media screen and (max-width: 1210px){
+	.navbar ul{
+		margin-left: 60%;
+	}
+	.write {
+	margin-top: 10px;
+}
+}
+@media screen and (max-width: 1070px){
+	.navbar ul{
+		margin-left: 55%;
+	}
+	.content ul li p1{
+	margin-left: 100px;
+font-size: 30px;
+}
+.content ul li p2{
+	margin-left: 120px;
+font-size: 15px;
+}
+.write {
+	margin-top: 10px;
+}
+.secimage p1{
+	margin-left: 100px;
+font-size: 30px;
+}
+}
+@media screen and (max-width: 1005px){
+	.bimage img{
+	width: 100%;
+	height: 500px;
+}
+.content ul li img{
+	width: 400px;
+margin-left: 50px;
+}
+.write2 {
+	margin-left: -40px;
+}
+.secimage img{
+	width: 400px;
+	margin-left: 20px;
+}
+.form{
+	margin-left: 50px;
+	margin-top: 20px;
+}
+.contact1{
+	margin-left: 50px;
+font-size: 30px;
+}
+.contact2{
+	margin-left: 50px;
+}
+.contact3{
+	color: darkblue;
+	margin-left: 50px;
+}
+.contact4{
+	margin-left: 50px;
+}
+.form input{
+	width: 600px;
+}
+}
+@media screen and (max-width: 945px){
+	.navbar ul{
+		margin-left: 50%;
+	}
+}
+@media screen and (max-width: 850px){
+.navbar ul{
+		margin-left: 40%;
+	}
+	.bimage img{
+	width: 100%;
+	height: 400px;
+}	
+.content ul li img{
+	width: 300px;
+margin-left: 30px;
+height: 500px;
+}
+.secimage img{
+	width: 300px;
+	margin-left: 20px;
+height: 500px;
+}
+.write2 {
+	margin-top: 0px;
+	margin-left: -60px;
+}
+.two{
+	margin-top: 20px;
+}
+}
+@media screen and (max-width: 705px){
+	.navbar ul{
+		margin-left: 30%;
+	}
+	.form input{
+	width: 450px;
+}
+.content ul li img{
+margin-left: 10px;
+}
+.write2 {
+	
+	margin-left: -90px;
+}
+.content ul li p1{
+	margin-left: 50px;
+}
+.content ul li p2{
+	margin-left: 70px;
+}
+.content ul li p{
+	line-height: 20px;
+}
+}
+@media screen and (max-width: 605px){
+	.navbar ul{
+		display: none;
+	}
+	.navbar p{
+		line-height: 30px;
+	}
+	.secimage ul{
+	display: block;
+}
+.write2 {
+	text-align: center;
+}
+.secimage p1{
+	margin-left: 20px;
+	font-size: 50px;
+}
+.secimage p2{
+	font-size: 30px;
+}
+.secimage p{
+	font-size: 20px;
+}
+.secimage img{
+	width: 100%;
+	margin-left: -40px;
+	margin-top: 20px;
+}
+.content ul li img{
+	display: none;
+}
+.content ul li p1{
+	text-align: center;
+font-size: 50px;
+margin-left: 120px;
+}
+.content ul li p2{
+font-size: 30px;
+margin-left: 150px;
+}
+.content ul li p{
+	margin-left: 30px;
+	text-align: justify-all;
+}
+.bimage img{
+	height: 300px;
+}
+}
+@media screen and (max-width: 605px){
+.form input{
+	margin-left: -20px;
+	width: 350px;
+}
+.contact1{
+	margin-left: 20px;
+}
+.contact2{
+	margin-left: 20px;
+}
+.contact3{
+	color: darkblue;
+	margin-left: 20px;
+}
+.contact4{
+	margin-left: 20px;
+}
+.content ul li p1{
+margin-left: 90px;
+}
+.content ul li p2{
+margin-left: 120px;
+}
+}
+@media screen and (max-width: 430px){
+.content ul li p1{
+margin-left: 30px;
+}
+.content ul li p2{
+margin-left: 70px;
+}
+.bimage img{
+	height: 250px;
+}
+}
+@media screen and (max-width: 387px){
+.content ul li p1{
+margin-left: 10px;
+}
+.content ul li p2{
+margin-left: 40px;
+}
+.form input{
+	margin-left: -40px;
+	width: 300px;
+}
+.contact1{
+	margin-left: 10px;
+}
+.contact2{
+	margin-left: 10px;
+}
+.contact3{
+	color: darkblue;
+	margin-left: 10px;
+}
+.contact4{
+	margin-left: 10px;
+}
+}
